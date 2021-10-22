@@ -200,12 +200,8 @@ contribution of transistor M4 is cancelled.
 Figure 6 2-Stage Low Noise Amplifier With 50 Ohm Buffer
 
 The equations describing the above circuits are
+![Chart Description automatically generated](media/EQ1.png)
 
-\[A_{v1} = \frac{\left( g_{m0} + g_{m1} \right)}{\left( g_{ds0} + g_{ds1} + g_{m2} \right)}\left( g_{m2}*R \right)\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Gain\ of\ First\ Stage}\]
-
-\[Z_{\text{in}} = \frac{1}{g_{m4}(1 + A_{v1})}\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Input\ Impedance\ seen\ by\ RFIN}\]
-
-\[g_{m6} = g_{m7}*\frac{A_{v1}*\ Rs}{R_{0}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Noise\ Cancel\ Condition\ for\ M4\ at\ second\ Stage\]
 
 ## Design Process
 
