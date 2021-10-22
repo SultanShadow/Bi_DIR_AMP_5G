@@ -397,3 +397,19 @@ Figure 25 Post layout Input Vs Output Power
 # Conclusion
 
 The design is ready to be integrated in caravel chip
+
+# Design and Simulation Files
+xschem/CompleteAMP is Complete Top Level Schematic
+xschem/Top_PostLayout.sch is post layout Schematic that uses xschem/TopModule.spice which was extracted from TopModule.mag using magic
+mag/TopModule is TopLevel Layout file of magic
+netgen...
+	/Xschem_Top.spice is xschem LVS file for schematic
+	/Top.spice is Magic extracted netlist for LVS (does not contain diodes and Decaps)
+	/comp.out is netgen LVS comparison result
+gds/TopModule.gds is magic generated gds of Top Module that is to be integradted in caravan
+media/ contains all images in README file
+docs/AMP_DOC.pdf contains design documentation in pdf form
+
+
+
+
