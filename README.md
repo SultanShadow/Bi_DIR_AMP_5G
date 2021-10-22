@@ -65,7 +65,7 @@
 
 [9 Conclusion ](#conclusion)
 
-[10 Design and Simulation Files ](#Design and Simulation Files)
+[10 Design and Simulation Files ](#Design-and-Simulation-Files)
 
 
 
@@ -205,7 +205,7 @@ Figure 6 2-Stage Low Noise Amplifier With 50 Ohm Buffer
 
 The equations describing the above circuits are
 
-![Chart Description automatically generated](media/EQ1.png)
+![Chart Description automatically generated](media/EQ1.JPG)
 
 
 ## Design Process
