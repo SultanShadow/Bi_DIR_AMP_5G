@@ -14,7 +14,8 @@
 
 ---
 
-Refer to docs/AMP_DOC for this project documentation in PDF.
+#Refer to docs/AMP_DOC for this project documentation in PDF. PDF version contains clearer images/graphs
+
 
 # Table of Contents
 
