@@ -404,8 +404,11 @@ xschem/Top_PostLayout.sch is post layout Schematic that uses xschem/TopModule.sp
 mag/TopModule is TopLevel Layout file of magic
 
 netgen...
+
 	/Xschem_Top.spice is xschem LVS file for schematic
+
 	/Top.spice is Magic extracted netlist for LVS (does not contain diodes and Decaps)
+
 	/comp.out is netgen LVS comparison result
 
 gds/TopModule.gds is magic generated gds of Top Module that is to be integradted in caravan
