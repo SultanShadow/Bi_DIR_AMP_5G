@@ -265,6 +265,10 @@ Figure 11 Gain vs Frequency graph of 2 stage LNA
 Figure 12 shows the input matching characteristic of the LNA in the form
 of S11. The S11\<-10 dB in the band of interest.
 
+The noise figure is estimated from ac analysis using
+
+![Chart Description automatically generated](media/EQ2.JPG)
+
 ![Chart Description automatically generated](media/Fig12.png)
 
 Figure 12 S11 of 2-Stage LNA
@@ -272,9 +276,7 @@ Figure 12 S11 of 2-Stage LNA
 ### Noise Figure
 
 Figure 13 shows the small signal noise figure graph of the 2-stage LNA.
-The noise figure is estimated from ac analysis using
 
-\[S_{11} = 20\log\left( \left| \frac{Z_{\text{in}} - 50}{Z_{\text{in}} + 50} \right| \right)\]
 
 ![Chart, line chart Description automatically
 generated](media/Fig13.png)
@@ -394,7 +396,7 @@ Figure 25 Post layout Input Vs Output Power
 
 # Conclusion
 
-The design is ready to be integrated in caravel chip
+The design is ready to be integrated in caravan chip
 
 # Design and Simulation Files
 xschem/CompleteAMP is Complete Top Level Schematic
@@ -403,7 +405,7 @@ xschem/Top_PostLayout.sch is post layout Schematic that uses xschem/TopModule.sp
 
 mag/TopModule is TopLevel Layout file of magic
 
-netgen...
+netgen/
 
 	/Xschem_Top.spice is xschem LVS file for schematic
 
