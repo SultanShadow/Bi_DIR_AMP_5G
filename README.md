@@ -86,12 +86,12 @@ PICO Design Contest Submission
         shown in Figure2
 
 ![A screenshot of a computer Description automatically generated with
-low confidence](media/image3.png)
+low confidence](media/Fig1.png)
 
 Figure 1 Transmitter on
 
 ![A screenshot of a computer Description automatically generated with
-medium confidence](media/image4.png)
+medium confidence](media/Fig2.png)
 
 Figure 2 Receiver on
 
@@ -114,7 +114,7 @@ Figure 2 Receiver on
 Figure 3 shows the proposed architecture of bi-directional amplification
 using same amplifier and a set of switches.
 
-> ![](media/image5.emf)
+![](media/Fig3.png)
 
 Figure 3 Bi-Directional Amplifier Architecture using Switches
 
@@ -125,7 +125,8 @@ mode the amplifier acts as a low noise amplifier. The power received
 from antenna is fed to the amplifier and the amplified signal is then
 sent to receiver path.
 
-![](media/image6.emf)
+
+![](media/Fig4.png)
 
 Figure 4 Amplification During Reception
 
@@ -135,9 +136,8 @@ Figure 5 shows the state of switches during transmission. In this case
 the signal from transmitter is power amplified and fed to a 50\(\Omega\)
 antenna.
 
-![](media/image7.emf)
+![](media/Fig5.png)
 
-Figure 5 Amplifier during Transmission
 
 # Budget Analysis
 
@@ -155,7 +155,6 @@ for the circuit.
 
   - The 50 Ohm buffer should have P1dB (out) \> 10 dBm
 
-![](media/image8.emf)
 
 ## Reception Budget Analysis
 
@@ -169,7 +168,6 @@ for the circuit.
 
   - The LNA should have noise Figure \(\leq 4dB\)
 
-![](media/image9.emf)
 
 # Circuit Specifications
 
@@ -200,7 +198,7 @@ establishes bias voltage for the gate of M0. The second stage combines
 the differential output from stage 1 in such a way that the noise
 contribution of transistor M4 is cancelled.
 
-![](media/image10.emf)
+![](media/Fig6.png)
 
 Figure 6 2-Stage Low Noise Amplifier With 50 Ohm Buffer
 
@@ -226,12 +224,12 @@ Figure 7 shows the schematic setup to simulate small signal noise figure
 in Xschem and Ngspice. The noise response at selected size and bias is
 shown in Figure 8.
 
-![Chart Description automatically generated](media/image11.png)
+![Chart Description automatically generated](media/Fig7.png)
 
 Figure 7 Schematic setup to simulate small signal noise figure
 
 ![Chart, line chart Description automatically
-generated](media/image12.png)
+generated](media/Fig8.png)
 
 Figure 8 Noise Figure Response @200u/0.15u
 
@@ -241,16 +239,16 @@ stage this size was chosen.
 ## DC Bias Point Simulations
 
 To calculate bias points an Xschem Schematic was mad with all
-transistors at their bias points as shown in Figure 8.
+transistors at their bias points as shown in Figure 9.
 
 ![Diagram, schematic Description automatically
-generated](media/image13.png)
+generated](media/Fig9.png)
 
 Figure 9 DC Bias Point Simulation for all transistors
 
 ## Two Stage Low Noise Amplifier
 
-![Diagram Description automatically generated](media/image14.png)
+![Diagram Description automatically generated](media/Fig10.png)
 
 Figure 10 Xschem Schematic for two stage amplifier shown in Figure 6
 
@@ -260,7 +258,7 @@ Figure 11 shows the gain vs frequency graph of 2 Stage LNA. The voltage
 gain is 32 dB with the band width of 6.5 GHz.
 
 ![A picture containing graphical user interface Description
-automatically generated](media/image15.png)
+automatically generated](media/Fig11.png)
 
 Figure 11 Gain vs Frequency graph of 2 stage LNA
 
@@ -269,7 +267,7 @@ Figure 11 Gain vs Frequency graph of 2 stage LNA
 Figure 12 shows the input matching characteristic of the LNA in the form
 of S11. The S11\<-10 dB in the band of interest.
 
-![Chart Description automatically generated](media/image16.png)
+![Chart Description automatically generated](media/Fig12.png)
 
 Figure 12 S11 of 2-Stage LNA
 
@@ -281,14 +279,14 @@ The noise figure is estimated from ac analysis using
 \[S_{11} = 20\log\left( \left| \frac{Z_{\text{in}} - 50}{Z_{\text{in}} + 50} \right| \right)\]
 
 ![Chart, line chart Description automatically
-generated](media/image17.png)
+generated](media/Fig13.png)
 
 Figure 13 Noise Figure of 2-Stage LNA
 
 ## Complete Schematic
 
 ![Diagram, schematic Description automatically
-generated](media/image18.png)
+generated](media/Fig14.png)
 
 Figure 14 Complete Schematic of Bi- Directional Amplifier Architecture
 
@@ -299,28 +297,28 @@ Individual modules were laid out separately with clean DRC and LVS and
 then were combined together. The layouts are shown in Following Figures.
 
 ![Graphical user interface Description automatically generated with low
-confidence](media/image19.png)
+confidence](media/Fig15.png)
 
 Figure 15 Layout of First stage of LNA
 
 ![Graphical user interface Description automatically
-generated](media/image20.png)
+generated](media/Fig16.png)
 
 Figure 16 Layout of Second Stage of Amplifier
 
 ![A picture containing text, writing implement, stationary, pencil
-Description automatically generated](media/image21.png)
+Description automatically generated](media/Fig17.png)
 
 Figure 17 Layout of Switches
 
 ![Graphical user interface, diagram Description automatically
-generated](media/image22.png)
+generated](media/Fig18.png)
 
 Figure 18 Complete DRC, Antenna, LVS clean layout of Bidirectional
 Amplifier
 
 ![Chart, treemap chart Description automatically
-generated](media/image23.png)
+generated](media/Fig19.png)
 
 Figure 19 GDS view of complete layout in KLayout tool
 
@@ -331,7 +329,7 @@ verify circuit functionality post layout. The schematic symbol is shown
 in Figure 20.
 
 ![Diagram, schematic Description automatically
-generated](media/image24.png)
+generated](media/Fig20.png)
 
 Figure 20 Post Layout Simulation Setup in Xschem against magic extracted
 netlists
@@ -345,7 +343,7 @@ extract resistance in magic (some issue to do with **extresist** command
 not working in hierarchical designs).
 
 ![A picture containing text, sky, screenshot, document Description
-automatically generated](media/image25.png)
+automatically generated](media/Fig21.png)
 
 Figure 21 Post layout Noise Figure Response
 
@@ -354,7 +352,7 @@ Figure 21 Post layout Noise Figure Response
 Figure 22 shows the matching at input in the form of S11.
 
 ![Chart, line chart Description automatically
-generated](media/image26.png)
+generated](media/Fig22.png)
 
 Figure 22 Post Layout S11 graph
 
@@ -367,7 +365,7 @@ output to drive 50\(\Omega\) test equipment. Also the LNA to PA
 isolations is about 35 dB. The bandwidth is 4.5 GHz.
 
 ![Graphical user interface, application, email Description automatically
-generated](media/image27.png)
+generated](media/Fig23.png)
 
 Figure 23 Post Layout Voltage Gain of LNA
 
@@ -376,7 +374,7 @@ on. We can see that the voltage gain is about 27dB. The isolation
 between LNA and PA is still greater than 35 dB.
 
 ![Graphical user interface Description automatically generated with low
-confidence](media/image28.png)
+confidence](media/Fig24.png)
 
 Figure 24 Post Layout small signal PA Gain
 
@@ -388,13 +386,13 @@ using transient analysis. The 1-dB compression graph is shown in Figure
 25.
 
 ![Chart, line chart Description automatically
-generated](media/image29.png)
+generated](media/Fig25.png)
 
 Figure 25 Post layout Input Vs Output Power
 
 # Post layout Results Summary
 
-![](media/image30.png)
+![](media/Fig26.png)
 
 # Conclusion
 
