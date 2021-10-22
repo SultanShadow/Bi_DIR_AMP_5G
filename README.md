@@ -7,7 +7,6 @@
 | :exclamation: Important Note            |
 |-----------------------------------------|
 
-## Please fill in your project documentation in this README.md file 
 
 
 :warning: | Use this sample project for analog user projects. 
@@ -21,14 +20,11 @@ Refer to docs/AMP_DOC for this project documentation in PDF.
 
 [1 Introduction ](#introduction)
 
-[2 Bi-Directional Amplification Architecture
-3](#bi-directional-amplification-architecture)
+[2 Bi-Directional Amplification Architecture](#bi-directional-amplification-architecture)
 
-[2.1 State of Switches During Reception
-3](#state-of-switches-during-reception)
+[2.1 State of Switches During Reception](#state-of-switches-during-reception)
 
-[2.2 State of Switches During Transmission
-4](#state-of-switches-during-transmission)
+[2.2 State of Switches During Transmission](#state-of-switches-during-transmission)
 
 [3 Budget Analysis ](#budget-analysis)
 
