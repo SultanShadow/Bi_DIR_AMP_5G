@@ -19,7 +19,7 @@ Refer to docs/AMP_DOC for this project documentation in PDF.
 
 # Table of Contents
 
-[1 Introduction 2](#introduction)
+[1 Introduction ](#introduction)
 
 [2 Bi-Directional Amplification Architecture
 3](#bi-directional-amplification-architecture)
@@ -30,43 +30,43 @@ Refer to docs/AMP_DOC for this project documentation in PDF.
 [2.2 State of Switches During Transmission
 4](#state-of-switches-during-transmission)
 
-[3 Budget Analysis 4](#budget-analysis)
+[3 Budget Analysis ](#budget-analysis)
 
-[3.1 Transmission Budget Analysis 4](#transmission-budget-analysis)
+[3.1 Transmission Budget Analysis ](#transmission-budget-analysis)
 
-[3.2 Reception Budget Analysis 5](#reception-budget-analysis)
+[3.2 Reception Budget Analysis ](#reception-budget-analysis)
 
-[4 Circuit Specifications 6](#circuit-specifications)
+[4 Circuit Specifications ](#circuit-specifications)
 
-[5 Schematic 6](#schematic)
+[5 Schematic ](#schematic)
 
-[5.1 Design Process 7](#design-process)
+[5.1 Design Process ](#design-process)
 
-[5.2 DC Bias Point Simulations 8](#dc-bias-point-simulations)
+[5.2 DC Bias Point Simulations ](#dc-bias-point-simulations)
 
-[5.3 Two Stage Low Noise Amplifier 9](#two-stage-low-noise-amplifier)
+[5.3 Two Stage Low Noise Amplifier ](#two-stage-low-noise-amplifier)
 
-[5.3.1 Gain 9](#gain)
+[5.3.1 Gain ](#gain)
 
-[5.3.2 Input Matching 10](#input-matching)
+[5.3.2 Input Matching ](#input-matching)
 
-[5.3.3 Noise Figure 10](#noise-figure)
+[5.3.3 Noise Figure ](#noise-figure)
 
-[5.4 Complete Schematic 11](#complete-schematic)
+[5.4 Complete Schematic ](#complete-schematic)
 
-[6 Layout 11](#layout)
+[6 Layout ](#layout)
 
-[7 Post layout Simulation 14](#post-layout-simulation)
+[7 Post layout Simulation ](#post-layout-simulation)
 
-[7.1 Noise Figure 14](#noise-figure-1)
+[7.1 Noise Figure ](#noise-figure-1)
 
-[7.2 Input Matching 15](#input-matching-1)
+[7.2 Input Matching ](#input-matching-1)
 
-[7.3 Voltage Gain 15](#voltage-gain)
+[7.3 Voltage Gain ](#voltage-gain)
 
-[8 Post layout Results Summary 17](#post-layout-results-summary)
+[8 Post layout Results Summary ](#post-layout-results-summary)
 
-[9 Conclusion 17](#conclusion)
+[9 Conclusion](#conclusion)
 
 Bi-Directional Amplifier Architecture for Sub-6 GHz 5G
 
