@@ -200,6 +200,7 @@ contribution of transistor M4 is cancelled.
 Figure 6 2-Stage Low Noise Amplifier With 50 Ohm Buffer
 
 The equations describing the above circuits are
+
 ![Chart Description automatically generated](media/EQ1.png)
 
 
