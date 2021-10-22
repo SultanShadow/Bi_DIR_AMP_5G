@@ -64,8 +64,10 @@
 [8 Post layout Results Summary ](#post-layout-results-summary)
 
 [9 Conclusion](#conclusion)
+
 [10 Design and Simulation Files](#Design and Simulation Files)
-Bi-Directional Amplifier Architecture for Sub-6 GHz 5G
+
+#Bi-Directional Amplifier Architecture for Sub-6 GHz 5G
 
 PICO Design Contest Submission
 
