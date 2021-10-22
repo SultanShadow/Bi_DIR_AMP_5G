@@ -1,0 +1,56 @@
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_9WNFGV in circuit cascode (1)(1 instance)
+Flattening unmatched subcell cascode in circuit cascode_PMOS (1)(1 instance)
+Flattening unmatched subcell cascode_PMOS in circuit ForwardAmp (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_high_po_0p69_D8BZCP in circuit ForwardAmp (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_high_po_0p35_MGFMH8 in circuit LNA_Buff (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_BKUEL6 in circuit LNA_Buff (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_KVAFL2 in circuit LNA_Buff (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_2_LJ5JLG in circuit LNA_Buff (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_9FS993 in circuit Switch (1)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_HYBPL5 in circuit Switch (1)(20 instances)
+Flattening unmatched subcell sky130_fd_pr__res_high_po_0p35_PGG99R in circuit LNA (1)(1 instance)
+Flattening unmatched subcell ForwardAmp in circuit LNA (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_high_po_0p35_A4PB2C in circuit LNA (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_C43HKJ in circuit LNA (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_2_LJ5JLG in circuit LNA (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_H2P3K4 in circuit LNA (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_USGZYX in circuit LNA_2ndstage (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_EN8PG3 in circuit LNA_2ndstage (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_high_po_0p35_MGFMH8 in circuit LNA_2ndstage (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__res_high_po_0p35_V3QVRN in circuit LNA_2ndstage (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_2_LJ5JLG in circuit LNA_2ndstage (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_VCU74W in circuit LNA_2ndstage (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_BG9PLE in circuit PA_BUFF (1)(25 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_9FS993 in circuit PA_BUFF (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_2_LJ5JLG in circuit PA_BUFF (1)(1 instance)
+Flattening unmatched subcell LNA_Buff in circuit Top.spice (1)(1 instance)
+Flattening unmatched subcell Switch in circuit Top.spice (1)(1 instance)
+Flattening unmatched subcell LNA in circuit Top.spice (1)(1 instance)
+Flattening unmatched subcell LNA_2ndstage in circuit Top.spice (1)(1 instance)
+Flattening unmatched subcell PA_BUFF in circuit Top.spice (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_2_LJ5JLG in circuit Top.spice (1)(1 instance)
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Class Top.spice:  Merged 171 devices.
+
+Subcircuit summary:
+Circuit 1: Xschem_Top.spice                |Circuit 2: Top.spice                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_high_po_0p35 (6)         |sky130_fd_pr__res_high_po_0p35 (6)         
+sky130_fd_pr__cap_mim_m3_2 (6)             |sky130_fd_pr__cap_mim_m3_2 (6)             
+sky130_fd_pr__nfet_01v8_lvt (13)           |sky130_fd_pr__nfet_01v8_lvt (13)           
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__res_high_po_0p69 (1)         |sky130_fd_pr__res_high_po_0p69 (1)         
+sky130_fd_pr__res_xhigh_po_0p35 (7)        |sky130_fd_pr__res_xhigh_po_0p35 (7)        
+Number of devices: 35                      |Number of devices: 35                      
+Number of nets: 34                         |Number of nets: 34                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes Xschem_Top.spice and Top.spice are equivalent.
+Circuits match uniquely.

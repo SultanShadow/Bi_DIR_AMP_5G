@@ -1,0 +1,64 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {type=primative
+format="@name @pinlist @symname"
+template="name=XBIAMP1"}
+V {}
+S {}
+E {}
+L 4 180 -180 180 140 {}
+L 4 180 140 430 -0 {}
+L 4 180 -180 430 -0 {}
+L 4 60 -0 180 -0 {}
+L 4 390 -30 520 -30 {}
+L 4 390 20 520 20 {}
+L 4 60 -140 180 -140 {}
+L 4 60 -110 180 -110 {}
+L 4 60 30 180 30 {}
+L 4 60 50 180 50 {}
+L 4 60 70 180 70 {}
+L 4 60 90 180 90 {}
+L 4 230 -210 230 -140 {}
+L 4 290 -170 290 -100 {}
+L 4 290 80 290 150 {}
+L 4 230 110 230 180 {}
+L 4 60 -140 180 -140 {}
+B 5 57.5 -142.5 62.5 -137.5 {name=VCASC1
+dir=inout}
+B 5 57.5 -112.5 62.5 -107.5 {name=VCASC2
+dir=inout}
+B 5 57.5 -2.5 62.5 2.5 {name=RFIN
+dir=inout}
+B 5 57.5 27.5 62.5 32.5 {name=VBIAS1
+dir=inout}
+B 5 57.5 47.5 62.5 52.5 {name=VBIAS2
+dir=inout}
+B 5 57.5 67.5 62.5 72.5 {name=VBIAS3
+dir=inout}
+B 5 57.5 87.5 62.5 92.5 {name=VBIAS4
+dir=inout}
+B 5 227.5 -212.5 232.5 -207.5 {name=VDD
+dir=inout}
+B 5 287.5 -172.5 292.5 -167.5 {name=VSWP
+dir=inout}
+B 5 227.5 177.5 232.5 182.5 {name=VSS
+dir=inout}
+B 5 287.5 147.5 292.5 152.5 {name=VSWN
+dir=inout}
+B 5 517.5 17.5 522.5 22.5 {name=PAOUT
+dir=inout}
+B 5 517.5 -32.5 522.5 -27.5 {name=LNAOUT
+dir=inout}
+T {@name} 180 -40 0 0 1 1 {}
+T {VDD} 230 -200 0 0 0.2 0.2 {}
+T {VSWP} 290 -160 0 0 0.2 0.2 {}
+T {VSWN} 290 120 0 0 0.2 0.2 {}
+T {LNAOUT} 470 -50 0 0 0.2 0.2 {}
+T {PAOUT} 470 0 0 0 0.2 0.2 {}
+T {RFIN} 70 -20 0 0 0.2 0.2 {}
+T {VCASC1} 70 -160 0 0 0.2 0.2 {}
+T {VCASC2} 70 -130 0 0 0.2 0.2 {}
+T {VBIAS1} 70 10 0 0 0.2 0.2 {}
+T {VBIAS2} 70 40 0 0 0.2 0.2 {}
+T {VBIAS3} 70 60 0 0 0.2 0.2 {}
+T {VBIAS4} 70 80 0 0 0.2 0.2 {}
