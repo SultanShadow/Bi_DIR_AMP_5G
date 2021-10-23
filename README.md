@@ -265,7 +265,7 @@ Figure 11 Gain vs Frequency graph of 2 stage LNA
 Figure 12 shows the input matching characteristic of the LNA in the form
 of S11. The S11\<-10 dB in the band of interest.
 
-The noise figure is estimated from ac analysis using
+The S11 is estimated from ac analysis using
 
 ![Chart Description automatically generated](media/EQ2.JPG)
 
