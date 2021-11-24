@@ -974,7 +974,7 @@ Xsky130_fd_pr__cap_mim_m3_2_LJ5JLG_1 VDD VSS VSS sky130_fd_pr__cap_mim_m3_2_LJ5J
 + wbs_dat_o[25] wbs_dat_o[26] wbs_dat_o[27] wbs_dat_o[28] wbs_dat_o[29] wbs_dat_o[2]
 + wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3] wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6]
 + wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
-+ wbs_stb_i wbs_we_i vssa io_analog[6]
++ wbs_stb_i wbs_we_i vssa1 io_analog[6]
 XFINAL_2nov_0 io_analog[4] gpio_noesd[10] vssa2 io_analog[5] FINAL_2nov
 XESD_CLAMP_0 TopModule_VSW_0/VCASC1 vssa2 io_analog[9] vccd1 vssa2 ESD_CLAMP
 XESD_CLAMP_1 TopModule_VSW_0/VBIAS2 vssa2 io_analog[3] vccd1 vssa2 ESD_CLAMP
