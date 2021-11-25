@@ -987,5 +987,8 @@ Xsky130_fd_pr__diode_pd2nw_05v5_D66R4S_0 vssa2 vccd1 TopModule_VSW_0/VSWP sky130
 XTopModule_VSW_0 TopModule_VSW_0/VCASC1 io_analog[2] TopModule_VSW_0/VSWP io_analog[1]
 + io_analog[0] TopModule_VSW_0/VBIAS4 vccd1 TopModule_VSW_0/VBIAS3 TopModule_VSW_0/VBIAS2
 + TopModule_VSW_0/VBIAS1 TopModule_VSW_0/VCASC2 vssa2 TopModule_VSW
+XVIA1 VIA1
+XVIA2 VIA2
+XVIA3 VIA3
 .ends
 
