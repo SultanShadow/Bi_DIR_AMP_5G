@@ -990,5 +990,6 @@ XTopModule_VSW_0 TopModule_VSW_0/VCASC1 io_analog[2] TopModule_VSW_0/VSWP io_ana
 XVIA1 VIA1
 XVIA2 VIA2
 XVIA3 VIA3
+XtopUsman top
 .ends
 
